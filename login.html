@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src = "script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body style = "background-color: rgb(196, 26, 26);">
     <div class = "login">
-        <p>Sign In</p>
-        <input type = "text" placeholder = "Email Address"  id = "email"><br>
-        <input type = "text" placeholder = "password" id = "password"><br>
-        <button class = "loginbutton" onclick = "Checkemail(email.value),checkpassword(password.value)"> Log in</button>
-
+        <p id = "signin"><b>Neecare Medical Center </b></p>
+        <input  type = "text" placeholder = "Email Address"  id = "email" required><br>
+        <p style = "font-size:50%"></p>
+        <input  type = "text" placeholder = "password" id = "password" required><br></p>
+        <button class = "loginbutton" onclick = "checklogin(email.value,password.value)"><b> Log in</b></button>
+        <p> Don't have an account?</p>
+        <a href = "signup.html"> Register here</a>
     </div>
 </body>
 </html>
