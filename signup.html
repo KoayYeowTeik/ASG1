@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
+    <div class = "top">
+        <img src = "logo.png">
+        <input type = "text" id = "searchbar" placeholder = "search..." >
+
+    </div>
+    <div class = "Navbar">
+        <a href = "index.html" > HOME</a>
+        <a href = "procedures.html"> PROCEDURES</a>
+        <a href = "staff.html"> CONTACT US</a>
+        <a href = "services.html"> SERVICES PROVIDED</a>
+        <a href = "hpackages.html"> HEALTH PACKAGES</a>
+        <div class="dropdown">
+            <a href = "myaccount.html" id = "mainnav">ACCOUNT</a>
+            <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>  
+
+            </div>
+        </div> 
+    </div>
+    <div class="signupbox">
+        <p class = "signuptext"><b>Sign up</b></p>
+        <input type="text" class="inputname" placeholder = "Name"><br>
+        <input type="" class="email" placeholder = "email"><br>
+        <input type="text" class="password" placeholder = "password"><br>
+        <p class = "signlog">Already signed up? <a href = "login.html" class = "signlog">Login</a></p>
+        <button> SIGN UP </button> <!--If can will use singpass -->
+    </div>
     
+
 </body>
 </html>

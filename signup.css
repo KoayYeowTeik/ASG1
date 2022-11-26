@@ -1,0 +1,48 @@
+.signupbox {
+    position:relative;
+    padding-top:5%;
+    text-align:center;
+    margin-top:5%;
+    width:30%;
+    margin-left:35%;
+}
+body{
+    background-color:whitesmoke
+}
+ 
+.signuptext{
+    font-family:Sono;
+    font-size:250%;
+}
+
+.signupbox input{
+    outline:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-family:Sono;
+    font-size:150%;
+    margin-top:20px;
+    padding-bottom:5px;
+    padding-top:5px;
+    background-color: whitesmoke;
+}
+.signlog{
+    font-family:Sono;
+    font-size:100%;
+}
+
+.signupbox button{
+    width:60%;
+    font-family:Sono;
+    font-size:150%;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:rgba(0, 0, 0, 0.667);
+    margin-bottom:5%;
+    background-color:antiquewhite;
+    border:style;
+}
+.signupbox button:hover{
+    background-color:rgb(226, 122, 122);
+}
