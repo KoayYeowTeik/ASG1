@@ -7,27 +7,43 @@
     <title>Document</title>
     <script src = "script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "login.css">
 
 </head>
 <body>
-    <img src="logo.png" alt="company logo">
-    <div class = "Navbar flex">
-        <a href = "index.html"> HOME</a>
+    <div class = "top">
+        <img src = "logo.png">
+        <input type = "text" id = "searchbar" placeholder = "search..." >
+
+    </div>
+    <div class = "Navbar">
+        <a href = "index.html" > HOME</a>
         <a href = "procedures.html"> PROCEDURES</a>
         <a href = "staff.html"> CONTACT US</a>
         <a href = "services.html"> SERVICES PROVIDED</a>
         <a href = "hpackages.html"> HEALTH PACKAGES</a>
-        <a href = "login.html"> LOGIN</a>
-    </div>>
+        <div class="dropdown">
+            <a href = "myaccount.html" id = "mainnav">ACCOUNT</a>
+            <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>  
 
+            </div>
+        </div> 
+    </div>
+
+    
     <div class = "login">
-        <p id = "signin"><b>Neecare Medical</b></p>
-        <input  type = "text" placeholder = "Email Address"  id = "email" required><br>
-        <p style = "font-size:50%"></p>
-        <input  type = "text" placeholder = "password" id = "password" required><br></p>
-        <button class = "loginbutton" onclick = "checklogin(email.value,password.value)"><b> Log in</b></button>
-        <p> Don't have an account?</p>
-        <a href = "signup.html"> Register here</a>
+        <div>
+            <p class = "header"><b>NEECARE MEDICAL</b></p>
+            <p class = "logintext"> Login</p>
+            <input  type = "text" placeholder = "Email Address"  class = "input" required><br>
+            <p style = "font-size:50%"></p>
+            <input  type = "text" placeholder = "password" class = "input" required><br></p>
+            <button class = "loginbutton" onclick = "checklogin(email.value,password.value)"><b> Log in</b></button>
+            <p id = "noacc"> Don't have an account?</p>
+            <a href = "signup.html" class = "signuphere"> Register here</a>
+        </div>
     </div>
 </body>
 </html>
