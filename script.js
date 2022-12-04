@@ -11,7 +11,7 @@ function try_login(){
     let checkpassword = document.getElementById("login-password").value === localStorage.getItem('password');
     if (checkemail && checkpassword === true){
         alert("Login successful");
-        window.location.replace("html.html");
+        window.location.replace("index.html");
         localStorage.setItem("login-email",document.getElementById("login-name").value);
         localStorage.setItem("login-password",document.getElementById("login-password").value);
         got_account = true;
