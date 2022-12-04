@@ -69,6 +69,8 @@
     overflow: hidden;
     color:whitesmoke;  
     font-family: Sono;
+    background-size:cover; 
+    background-attachment: fixed;
   }
   
   .Navbar a {
@@ -131,7 +133,6 @@
     color:whitesmoke;
     display:flex;
     justify-content:space-evenly;
-    padding-top:10px;
     background-color:rgb(88, 79, 79)
 }
 .name{
@@ -147,10 +148,98 @@
 .openinghours{
 }
 .bottom-page iframe{
+    padding-top:100px;
     float:right;
-    width:40%;
+    width:30%;
     border:0;
+    height:400px;
 }
 .moreinfolink{
     text-decoration: none;
 }
+
+.Header{
+  font-size:300%;
+  text-shadow:gray 10px;
+}
+.service {
+  background-color:rgb(152, 4, 4);
+  padding-bottom:100px;
+  padding-top:30px;
+  border-radius:10px;
+}
+.service > p{
+  position:relative;
+  text-align:center; 
+  font-size:400%;
+  color:whitesmoke;
+  animation: slidedown ease 1s forwards;
+}
+.service1{
+  animation: slideup ease 0.5s forwards;
+}
+.service2{
+  animation:  slideup ease 1s forwards;
+}
+.service3{
+  animation :slideup ease 1.5s forwards;
+}
+@keyframes slidedown {
+  0% {transform: translateY(-150px);opacity:0;}
+  100% {transform: translateY(0px);opacity:1;}
+}
+@keyframes slideup{
+  0% {transform: translateY(-50px);opacity:0;}
+  100% {transform: translateY(0px);opacity:1;}
+}
+/*how to make scroll animation*/
+.service p {
+  font-family:Sono;
+  display:block;
+  padding-bottom:50px;
+}
+.serviceboxes{
+  display:flex; 
+  display:33%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.serviceboxes > div:hover {
+  animation : jumpup ease-in-out 0.1s forwards;
+}
+.serviceboxes > div{
+  display:block;
+  background-image:linear-gradient(to right, rgb(226, 106, 106) , rgb(218, 165, 165));
+
+}
+@keyframes jumpup{
+  0%{transform: translateY(0px);opacity: 1;}
+  100%{transform:translateY(-10px);opacity: 1;  box-shadow: 5px 10px 18px #2e1313;
+  }
+}
+.serviceboxes div{
+  max-width:30%;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 100px black;
+  color:whitesmoke;
+
+}
+.serviceheader{
+  font-size:200%;
+  text-align:center;
+}
+.servicedescription{
+  text-align: center;
+  font-size:150%;
+}
+.service1 > img{
+  position:relative;
+}
+.service1 > img:hover {
+  filter: grayscale(100%);
+  opacity: 0.2 ;
+}
+
+
+
