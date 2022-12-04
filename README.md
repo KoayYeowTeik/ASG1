@@ -1,10 +1,32 @@
 # ASG1
-Building a website for a clinic to allow patients to understand details of the company better
-External users goal:
-  The site's users are patients of clinic x, which allow the users to book timings with the     doctor to skip the long queue during extra hours which are then stored to the doctor's account to see the active bookings
-  Users can view information about the clinic easily to learn more about it, using a nav bar or using the search tool to find information related in the webpage.
-  If a patient fails to comes for more than 3 bookings, his or her account booking is placed as not a priority.
-  Real World Application:
-  Clearly understand the html,css and Javascript along with other elements such as understanding how html can link to databases such as the MongDB database using react.js or microsoft sql
-  
-  
+# ID-Assignment-1
+This is a ID Assignment
+# Design Rationale
+This website that I'm going to design is a website that help promote a clinic. Neecare is a private GP clinic. This website includes details of the website like the details of the website like the procedures and services offered by the clinic. Moreover it allowd patients to book slots that is based on the doctor's schedule for appointment consultations.
+
+# Webpage Structure (Features)
+## Home
+this first page will be the home page where by user will be able to see the overview of the clinic website,gain several insights to the website and many other information
+### Highlights
+This section will display the clinic location so it is easier for patients to find the clinic
+
+
+
+### procedures 
+This allows the user to view what are the procedures and new procedures that are being offered by the clinic
+### services 
+This allows the user to view what are the services and new procedures that are being offered by the clinic
+
+
+### about the clinic
+a small description about the clinic history
+
+### bottom page
+displays the clinic opening hours and location with google maps display.
+### wish to have database
+the ability for users to login with SIngpass to reigster an account for booking so there are no fake accounts/data
+### wish to have website connection
+a different interface for the doctor to login with other credentials so that he can view the upcoming appointments and make updates on the website.
+
+### wish to have 
+the webiste will be able to display videos on scoll
