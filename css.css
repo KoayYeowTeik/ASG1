@@ -289,7 +289,52 @@ body{
 
 .about-description > p{
     float:left;
+    font-size:150%;
 }
+.about-description > h2 {
+    font-size:175%;
+}
+
+.booking{
+    font-family:Sono;
+    font-size:400%;
+    margin:25px;
+}
+.booking > p{
+    font-weight:bold;
+    margin-bottom:100px;
+}
+.booking > button {
+    height:100px;
+    width:50%;
+    background-color:rgb(226, 122, 122);
+    border-style:none;
+    border-radius:10px;
+    font-size: 100%;
+    color:whitesmoke;
+    text-align: center;
+    margin-left:350px;
+}
+.bottom{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgb(226, 122, 122);
+    font-family:Sono;
+    color:whitesmoke;
+    text-align:center;
+}
+.find{
+    font-size:300%;
+    font-weight:bold;
+}
+.location , time {
+    font-size:200%;
+}
+.iframe{
+    margin-top:50px;
+}
+
+
 
 
 

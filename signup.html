@@ -5,39 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="signup.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class = "top">
-        <img src = "logo.png">
-        <input type = "text" id = "searchbar" placeholder = "search..." >
-
-    </div>
-    <div class = "Navbar">
-        <a href = "index.html" > HOME</a>
-        <a href = "procedures.html"> PROCEDURES</a>
-        <a href = "staff.html"> CONTACT US</a>
-        <a href = "services.html"> SERVICES PROVIDED</a>
-        <a href = "hpackages.html"> HEALTH PACKAGES</a>
-        <div class="dropdown">
-            <a href = "myaccount.html" id = "mainnav">ACCOUNT</a>
-            <div class="dropdown-content">
-                <a href="login.html">Login</a>
-                <a href="signup.html">Sign Up</a>  
-
-            </div>
-        </div> 
-    </div>
-    <div class="signupbox">
-        <p class = "signuptext"><b>Sign up</b></p>
-        <input type="text" class="inputname" placeholder = "Name"><br>
-        <input type="" class="email" placeholder = "email"><br>
-        <input type="text" class="password" placeholder = "password"><br>
-        <p class = "signlog">Already signed up? <a href = "login.html" class = "signlog">Login</a></p>
-        <button> SIGN UP </button> <!--If can will use singpass -->
+    <div class="header">
+        <img src="images/logo.png" alt="">
     </div>
     
-
+    
+    <div class="navbar">
+        <ul>
+            <li><a href = "html.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Procedures</a></li>
+            <li><a href="#">Account</a>
+                <div class = "nav-content">
+                    <ul><a href="login.html">Login</a></ul>
+                    <ul><a href="signup.html">Sign Up</a></ul>
+                </div>
+            </li>
+            <li><a href="#">Booking</a>
+            <div class="nav-content">
+                <ul><a href="booking.html">Book Appointment</a></ul>
+                <ul><a href="booking.html">My Booking</a></ul>
+            </div></li>
+        </ul>
+    </div>
+    <div class="signup">
+        <p>Neecare Account Sign Up</p>
+        <form>
+            <label for="name">name</label>
+            <input type="text" name="newname" id="signup-name" placeholder="name">
+            <label for="email">email</label>
+            <input type="text" name="newemail" id="signup-email" placeholder="email">
+            <label for="password">password</label>
+            <input type="text" name="newpassword" id="signup-password" placeholder="password">
+            <button id = "a-button" onclick  = "here()">REGISTER NOW</button>
+        </form>
+    </div>
 </body>
 </html>

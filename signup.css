@@ -1,48 +1,34 @@
-.signupbox {
-    position:relative;
-    padding-top:5%;
+.signup{
+    background-color:bisque;
+    font-family:Sono;
+    margin-left: 30%;
+    max-width:35%;
+    padding:50px;
+    border-radius:50px;
+    margin-top:10% ;
+}
+.signup > p{
+    font-size:300%;
+    font-weight: bold;
     text-align:center;
-    margin-top:5%;
-    width:30%;
-    margin-left:35%;
+    color:rgb(194, 0, 0);
 }
-body{
-    background-color:whitesmoke
-}
- 
-.signuptext{
-    font-family:Sono;
-    font-size:250%;
-}
-
-.signupbox input{
-    outline:none;
-    border-top:none;
-    border-left:none;
-    border-right:none;
-    font-family:Sono;
+.signup > form{
+    display:flex;
+    flex-direction: column;
     font-size:150%;
-    margin-top:20px;
-    padding-bottom:5px;
-    padding-top:5px;
-    background-color: whitesmoke;
+
 }
-.signlog{
-    font-family:Sono;
+.signup > form > input{
+    border-style: none;
+    background-color: bisque;
     font-size:100%;
+    border-bottom:double;
+    margin-top:10px; 
+    margin-bottom:10px;
+    outline:none;
 }
-
-.signupbox button{
-    width:60%;
-    font-family:Sono;
-    font-size:150%;
-    padding-top:5px;
-    padding-bottom:5px;
-    color:rgba(0, 0, 0, 0.667);
-    margin-bottom:5%;
-    background-color:antiquewhite;
-    border:style;
-}
-.signupbox button:hover{
-    background-color:rgb(226, 122, 122);
+.signup > form > button{
+    margin-top:25px;
+    font-size:100%;
 }
