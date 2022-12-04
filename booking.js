@@ -5,6 +5,9 @@ let monthlist = ["January","February","March","April","May","June","July",
 for (let i = 0; i< new Date(date.getFullYear(),date.getMonth()+1,0).getDate();i++){
     let date1 = new Date(2022,date.getMonth(),i+1)
     if (date1.getDay() === 5  || date1.getDay() === 0 ||date1.getDay() === 6){
+        continue;
+    }
+    else {
         const newDiv = document.createElement("p");
         const createButton = document.createElement("button")
         createButton.setAttribute("id",i);

@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
     <script src="script.js"></script>
+    <script src="booking.js"></script>
 </head>
 <body>
     <div class="header">
@@ -17,8 +18,8 @@
     <div class="navbar">
         <ul>
             <li><a href = "html.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Procedures</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#procedures">Procedures</a></li>
             <li><a href="#">Account</a>
                 <div class = "nav-content">
                     <ul><a href="login.html">Login</a></ul>
@@ -28,7 +29,7 @@
             <li><a href="#">Booking</a>
             <div class="nav-content">
                 <ul><a href="booking.html">Book Appointment</a></ul>
-                <ul><a href="booking.html">My Booking</a></ul>
+                <ul><a href="booking.html" onclick = "showappt()">My Booking</a></ul>
             </div></li>
         </ul>
     </div>
@@ -50,7 +51,7 @@
         <br><br><br><br><br><br>
     </div>
 
-    <div class="services">
+    <div class="services" id = "services">
         <p>SERVICES</p>
         <div class="servicebox">
             <div class="service-container"><a href="#">
@@ -86,7 +87,7 @@
 
 
     
-    <div class="procedures">
+    <div class="procedures" id = "procedures">
         <p>Procedures</p>
         <div class="procedurebox">
             <div class="procedure-container"><a href="">

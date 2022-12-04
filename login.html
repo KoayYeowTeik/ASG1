@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="css.css">
     <script src="script.js" defer></script>
+    <script src="booking.js" defer></script>
 
 </head>
 <body>
@@ -19,9 +20,9 @@
     <div class="navbar">
         <ul>
             <li><a href = "html.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Procedures</a></li>
-            <li><a href="#">Account</a>
+            <li><a href="html.html#services">Services</a></li>
+            <li><a href="html.html#services">Procedures</a></li>
+            <li><a href="html.html#procedures">Account</a>
                 <div class = "nav-content">
                     <ul><a href="login.html">Login</a></ul>
                     <ul><a href="signup.html">Sign Up</a></ul>
@@ -30,7 +31,7 @@
             <li><a href="#">Booking</a>
             <div class="nav-content">
                 <ul><a href="booking.html">Book Appointment</a></ul>
-                <ul><a href="booking.html">My Booking</a></ul>
+                <ul><a href="booking.html" onclick = "showappt()">My Booking</a></ul>
             </div></li>
         </ul>
     </div>
