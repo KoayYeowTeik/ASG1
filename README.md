@@ -2,7 +2,7 @@
 # ID-Assignment-1
 This is a ID Assignment
 # Design Rationale
-This website that I'm going to design is a website that help promote a clinic. Neecare is a private GP clinic. This website includes details of the website like the details of the website like the procedures and services offered by the clinic. Moreover it allowd patients to book slots that is based on the doctor's schedule for appointment consultations.
+This website that I'm going to design is a website that help promote a clinic. Neecare is a private GP clinic. This website includes details of the website like the details of the website like the procedures and services offered by the clinic. Moreover it allowd patients to book slots that is based on the doctor's schedule for appointment consultations. Purpose is to reduce queuing for consultation with the doctor.
 
 # Webpage Structure (Features)
 ## Home
@@ -17,7 +17,8 @@ This allows the user to view what are the procedures and new procedures that are
 ### services 
 This allows the user to view what are the services and new procedures that are being offered by the clinic
 
-
+### bookings
+allows the user to book an open slot by the clinic for appointment/consultation
 ### about the clinic
 a small description about the clinic history
 
@@ -30,3 +31,6 @@ a different interface for the doctor to login with other credentials so that he 
 
 ### wish to have 
 the webiste will be able to display videos on scoll
+
+### wish to have
+an account page that display's the user's entire profile and booking timings
